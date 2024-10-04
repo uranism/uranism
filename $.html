@@ -1,0 +1,308 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Cache-control" content="public">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <link rel="preload" href="WOFF/FreeSerif-YO4a.woff" as="font" type="font/woff">
+  <link rel="preload" href="WOFF/jackeyfont.woff" as="font" type="font/woff">
+  <link rel="preload" href="crt.css" as="style">
+  <link rel="preload" href="desktop.css" as="style">
+  <link rel="stylesheet" href="desktop.css">
+  <link rel="stylesheet" href="https://unpkg.com/98.css">
+
+  <link href="https://fonts.cdnfonts.com/css/vcr-osd-mono" rel="stylesheet">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css" />
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+  <script src="index.js"></script>
+  <script src="audio.js"></script>
+
+  <title>Slaughters</title>
+  <meta name="theme-color" content="#000">
+
+  <meta property="og:title" content="「Slaughters」" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="ֆʟǟʊɢɦȶɛʀֆ  " />
+</head>
+
+<body>
+  <script>
+    $(function () {
+      $(".draggable").draggable({
+        start: function () {
+          $(this).css({ transform: "none", top: $(this).offset().top + "px", left: $(this).offset().left + "px" });
+        }
+      });
+    });
+  </script>
+  <div id="enter">
+    <div class="window enter-screen">
+      <div class="title-bar">
+        <div class="title-bar-text">User Login</div>
+        <div class="title-bar-controls">
+          <button aria-label="Close"></button>
+        </div>
+      </div>
+      <div class="window-wrapper">
+        <div class="window-content">
+          <form>
+            <fieldset>
+              <legend>Login</legend>
+
+
+              <p>Select a user to login to</p>
+              <select name="wallpaper" size="1">
+                <option>Slaughters</option>
+              </select>
+            </fieldset>
+          </form>
+        </div>
+
+        <div class="window-actions">
+          <button class="window-action-button main">OK</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div id="main">
+    <div id="desktop">
+      </br></br>
+      <center>
+        <h4 style="color: #fff">SLAUGHTER.WTF</h4>
+        <h4 style="color: #fff; top: 70px !important; font-size: 0.5em !important" id="mobile-notice"></h4>
+      </center>
+
+      <div class="desktop-icons-container">
+        <div class="desktop-icons">
+          <div class="desktop-icon krome KromeClose" onclick="showPopup('PopUpKrome')" title="Krome">
+            Krome
+          </div>
+          <div class="desktop-icon weep WeepClose" onclick="showPopup('PopUpWeep')" title="Weep">
+            Weep
+          </div>
+          <div class="desktop-icon encrypt EncryptClose" onclick="showPopup('PopUpEncrypt')" title="Encrypt">
+            Encrypt
+          </div>
+          <div class="desktop-icon fourth fourthClose" onclick="showPopup('PopUpfourth')" title="4th">
+            4th
+          </div>
+        </div> <!-- end desktop icons 1-->
+      
+        <div class="desktop-icons"> <!-- start desktop icons 2-->
+          <div class="desktop-icon viral ViralClose" onclick="showPopup('PopUpViral')" title="Viral">
+            Viral
+          </div>
+          <div class="desktop-icon cydist CydistClose" onclick="showPopup('PopUpCydist')" title="Cydist">
+            Cydist
+          </div>
+        </div>
+      </div>
+      
+        
+      <div id="toolbar">
+        <div class="toolbar-start-menu">
+          <button class="start-button">
+            Start
+          </button>
+
+        </div>
+        <div class="toolbar-separator"></div>
+
+        <div class="toolbar-left">
+
+          <button class="toolbar-icon correction" onclick="showPopup('PopUpKrome')"></button>
+          <div class="window draggable" id="PopUpKrome"
+            style="margin: 32px; width: 250px; display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+            <div class="title-bar">
+              <div class="title-bar-text">Krome</div>
+              <div class="title-bar-controls">
+                <button class="KromeClose" aria-label="Close"></button>
+              </div>
+            </div>
+            <div class="window-body">
+              <center>
+                <img src="Members/Krome.gif" height="48px" width="48px">
+                <p>pretty boy lifestyle</p>
+                <section class="field-row" style="justify-content: center">
+                  <button class="KromeOK" aria-label="OK" style="margin-top:10px;">OK</button>
+                </section>
+              </center>
+            </div>
+          </div>
+
+          <button class="toolbar-icon outlook" onclick="showPopup('PopUpWeep')"></button>
+          <div class="window draggable" id="PopUpWeep"
+            style="margin: 32px; width: 250px; display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+            <div class="title-bar">
+              <div class="title-bar-text">Weep</div>
+              <div class="title-bar-controls">
+                <button class="WeepClose" aria-label="Close"></button>
+              </div>
+            </div>
+            <div class="window-body">
+              <center>
+                <img src="Members/Weep.gif" height="48px" width="48px">
+                <p>Victoriam aeternam praedica.</p>
+                <section class="field-row" style="justify-content: center">
+                  <button class="WeepOK" aria-label="OK" style="margin-top:10px;">OK</button>
+                </section>
+              </center>
+            </div>
+          </div>
+
+          <button class="toolbar-icon encrypt" onclick="showPopup('PopUpEncrypt')"></button>
+          <div class="window draggable" id="PopUpEncrypt"
+            style="margin: 32px; width: 250px; display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+            <div class="title-bar">
+              <div class="title-bar-text">Encrypt</div>
+              <div class="title-bar-controls">
+                <button class="EncryptClose" aria-label="Close"></button>
+              </div>
+            </div>
+            <div class="window-body">
+              <center>
+                <img src="Members/Encrypt.gif" height="48px" width="48px">
+                <p>trust God, find God.</p>
+                <section class="field-row" style="justify-content: center">
+                  <button class="EncryptOK" aria-label="OK" style="margin-top:10px;">OK</button>
+                </section>
+              </center>
+            </div>
+          </div>
+
+          <button class="toolbar-icon wanted" onclick="showPopup('PopUpfourth')"></button>
+          <div class="window draggable" id="PopUpfourth"
+            style="margin: 32px; width: 250px; display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+            <div class="title-bar">
+              <div class="title-bar-text">4th</div>
+              <div class="title-bar-controls">
+                <button class="fourthClose" aria-label="Close"></button>
+              </div>
+            </div>
+            <div class="window-body">
+              <center>
+                <img src="Members/4th.gif" height="48px" width="48px">
+                <p>
+                  femboy hacker :3
+                  </br>
+                 </p>
+                <section class="field-row" style="justify-content: center">
+                  <button class="fourthOK" aria-label="OK" style="margin-top:10px;">OK</button>
+                </section>
+              </center>
+            </div>
+          </div>
+
+          <button class="toolbar-icon owned" onclick="showPopup('PopUpViral')"></button>
+          <div class="window draggable" id="PopUpViral"
+            style="margin: 32px; width: 250px; display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+            <div class="title-bar">
+              <div class="title-bar-text">Viral</div>
+              <div class="title-bar-controls">
+                <button class="ViralClose" aria-label="Close"></button>
+              </div>
+            </div>
+            <div class="window-body">
+              <center>
+                <img src="Members/Viral.png" height="48px" width="48px">
+                <p>
+                  tears of ketamine
+                  </br>
+                 </p>
+                <section class="field-row" style="justify-content: center">
+                  <button class="ViralOK" aria-label="OK" style="margin-top:10px;">OK</button>
+                </section>
+              </center>
+            </div>
+          </div>
+
+          <button class="toolbar-icon err" onclick="showPopup('PopUpCydist')"></button>
+          <div class="window draggable" id="PopUpCydist"
+            style="margin: 32px; width: 250px; display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+            <div class="title-bar">
+              <div class="title-bar-text">Cydist</div>
+              <div class="title-bar-controls">
+                <button class="CydistClose" aria-label="Close"></button>
+              </div>
+            </div>
+            <div class="window-body">
+              <center>
+                <img src="Members/Cydist.gif" height="48px" width="48px">
+                <p>
+                  @arabian.crusader
+                  </br>
+                 </p>
+                <section class="field-row" style="justify-content: center">
+                  <button class="CydistOK" aria-label="OK" style="margin-top:10px;">OK</button>
+                </section>
+              </center>
+            </div>
+          </div>
+          
+      </div>
+
+        <audio id="audio" preload="none" tabindex="0">
+          <source src="Songs/Apathy.mp3" data-track-number="1" />
+          <source src="Songs/Slave.mp3" data-track-number="2" />
+          <source src="songs/TURNMEUP.mp3" data-track-number="3" />
+          <source src="songs/Icarly.mp3" data-track-number="4" />
+          <source src="songs/SportMode.mp3" data-track-number="5" />
+          <source src="songs/U.mp3" data-track-number="6" />
+
+
+        </audio>
+
+        <ul id="trackList" style="display: none;">
+          <li data-track-number="1">EsDeeKid - Apathy</li>
+          <li data-track-number="2">UnoTheActivist - Slave</li>
+          <li data-track-number="3">Yeat - TURNMEUP</li>
+          <li data-track-number="4">Auxmit - iCarly Plugnb</li>
+          <li data-track-number="5">Luci4 ft saintryot - Sport Mode </li>
+          <li data-track-number="6">Axx - U </li>
+
+        </ul>
+
+        <div class="window volume" id="volume" style="position: fixed; width: 200px; display: none;">
+          <div class="title-bar">
+            <div class="title-bar-text">Volume</div>
+          </div>
+          <div class="window-body">
+            <p> Currently playing:</p>
+            <ul id="songInfo">
+              <li id="songTitle">EsDeeKid - Apathy</li>
+              <li id="songTime">0:00</li>
+              <li><input id="range26" type="range" min="0" max="50" value="50" /></li>
+            </ul>
+          </div>
+          <div class="status-bar">
+            <p id="backward" class="status-bar-field fa-solid fa-backward"></p>
+            <p id="pause" class="status-bar-field fa-solid fa-pause"></p>
+            <p id="forward" class="status-bar-field fa-solid fa-forward"></p>
+          </div>
+
+        </div>
+
+        <div class="toolbar-separator"></div>
+        <div class="toolbar-right field-row" style="width: 106px;">
+          <img src="images/sound.png" alt="Tab" onclick="togglePopup('volume')" height="24" width="">
+
+          <div class="time"><span class="hour"></span>:<span class="minutes"></span> AM</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+</body>
+
+</html>
